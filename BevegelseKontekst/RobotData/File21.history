@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="File21" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2022-Mar-17 11:00:38"/>
+    <Param header="0" name="x2d" value="File21.x2d"/>
+    <Param header="0" name="vvid" value="File21.2101524.vvid"/>
+    <Param header="0" name="vvid" value="File21.2101525.vvid"/>
+    <Param header="0" name="x1d" value="File21.x1d"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.12.0.131369h"/>
+      <Param header="0" name="Start Date" value="2022-Mar-21 11:13:46"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Combined Processing" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:13:46"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3088"/>
+          <Param header="1" name="General" value=""/>
+          <Param header="0" name="Processing Output Level" value="Labels"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="No"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="1.5"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="14"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Startup Error" value="150"/>
+          <Param header="0" name="Trajectory Prediction Error" value="150"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+          <Param header="1" name="Labeling" value=""/>
+          <Param header="0" name="Label Completeness Entrance Threshold" value="0.84999999999999998"/>
+          <Param header="0" name="Booting Versus Tracking" value="0.5"/>
+          <Param header="0" name="Tracking Quality" value="0"/>
+          <Param header="0" name="Smoothing Factor" value="1"/>
+          <Param header="0" name="Single pass" value="No"/>
+          <Param header="1" name="Kinematic Fitting" value=""/>
+          <Param header="0" name="Prior Importance" value="25"/>
+          <Param header="0" name="Mean-Pose Ratio" value="1"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  PatientZero:RSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:55:55"/>
+          <Param header="0" name="Label" value="PatientZero:RSHO"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:56:00"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:56:20"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1553"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:56:34"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1554"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:56:40"/>
+          <Param header="0" name="Label" value="PatientZero:RSHO"/>
+          <Param header="0" name="Frame" value="1554"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:LSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:57:09"/>
+          <Param header="0" name="Label" value="PatientZero:LSHO"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:57:26"/>
+          <Param header="0" name="Label" value="PatientZero:RSHO"/>
+          <Param header="0" name="Frame" value="1609"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:STRN" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:57:42"/>
+          <Param header="0" name="Label" value="PatientZero:STRN"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:58:14"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1609"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:58:16"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1610"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:58:40"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1338"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:58:47"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1341"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:58:53"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1348"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:58:58"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1476"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:59:06"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1481"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:59:10"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1497"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:59:14"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1519"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:RBAK" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:59:18"/>
+          <Param header="0" name="Label" value="PatientZero:RBAK"/>
+          <Param header="0" name="Frame" value="1527"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:T10" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:59:45"/>
+          <Param header="0" name="Label" value="PatientZero:T10"/>
+          <Param header="0" name="Frame" value="2182"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:T10" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 11:59:58"/>
+          <Param header="0" name="Label" value="PatientZero:T10"/>
+          <Param header="0" name="Frame" value="2190"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:T10" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 12:00:12"/>
+          <Param header="0" name="Label" value="PatientZero:T10"/>
+          <Param header="0" name="Frame" value="1622"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:T10" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 12:00:15"/>
+          <Param header="0" name="Label" value="PatientZero:T10"/>
+          <Param header="0" name="Frame" value="1630"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:T10" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 12:00:17"/>
+          <Param header="0" name="Label" value="PatientZero:T10"/>
+          <Param header="0" name="Frame" value="1633"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:T10" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 12:00:19"/>
+          <Param header="0" name="Label" value="PatientZero:T10"/>
+          <Param header="0" name="Frame" value="1637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:T10" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 12:00:21"/>
+          <Param header="0" name="Label" value="PatientZero:T10"/>
+          <Param header="0" name="Frame" value="1641"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:T10" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 12:00:22"/>
+          <Param header="0" name="Label" value="PatientZero:T10"/>
+          <Param header="0" name="Frame" value="1644"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  PatientZero:T10" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2022-Mar-21 12:00:24"/>
+          <Param header="0" name="Label" value="PatientZero:T10"/>
+          <Param header="0" name="Frame" value="1651"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>
